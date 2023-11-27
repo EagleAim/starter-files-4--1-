@@ -67,10 +67,14 @@ p {
 
 #footer-container {
 	display: grid;
+	grid-row: 3;
+	grid-column-start: 1;
+	grid-column-end: 11;
 }
 
 #header-container {
 	display: grid;
+	grid-row: 1;
 }
 
 #main-container {
@@ -78,12 +82,14 @@ p {
 	grid-template-rows: 250px auto 250px;
 	column-gap: 10px;
   	row-gap: 15px;
+	grid-row: 2;
 }
 
 nav {
 	display: grid;
 	grid-column-start: 1;
 	grid-column-end: 3;
+	grid-row: 2;
 }
 
 aside {
@@ -92,4 +98,5 @@ aside {
 	grid-column-end: 11;
 	column-gap: 10px;
   	row-gap: 15px;
+	  grid-row: 2;
 }
