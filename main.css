@@ -35,6 +35,7 @@ h1 {
 
 h2 {
 	font-size: 2.25rem;
+	
 }
 
 header {
@@ -42,12 +43,16 @@ header {
 }
 
 main {
-
+	display: grid;
+	grid-column-start: 4;
+	grid-column-end: 7;
+	display: grid, inline-grid;
 }
 
 p {
 	line-height: 140%;
 	margin-bottom: 1em;
+	
 }
 
 #intro {
@@ -55,17 +60,36 @@ p {
 }
 
 #automotive, #maritime, #medical, #physics, #myths {
-
+	display: grid;
+	column-gap: 10px;
+  	row-gap: 15px;
 }
 
 #footer-container {
-	
+	display: grid;
 }
 
 #header-container {
-
+	display: grid;
 }
 
 #main-container {
+	display: grid;
+	grid-template-rows: 250px auto 250px;
+	column-gap: 10px;
+  	row-gap: 15px;
+}
 
+nav {
+	display: grid;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+aside {
+	display: grid;
+	grid-column-start: 8;
+	grid-column-end: 11;
+	column-gap: 10px;
+  	row-gap: 15px;
 }
